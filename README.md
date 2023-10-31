@@ -21,8 +21,6 @@ Este projeto foi desenvolvido usando uma aplicação chamada Single Page Aplicat
 
 Link: https://spa-universe-eosin.vercel.app/
 
----
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
