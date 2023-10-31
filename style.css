@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-size: 62.5%;
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+
+
+    --bg1: url(./assets/universe.jpg);
+    --bg2: url(./assets/universe2.jpg);
+    --bg3: url(./assets/universe3.jpg);
+}
+
+
+html {
+    min-height: 100%;
+    background-image: var(--bg1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+
+/* Switch BG */
+.switch-bg1{
+    background-image: var(--bg1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.switch-bg2{
+    background-image: var(--bg2);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.switch-bg3{
+    background-image: var(--bg3);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ------- */
+
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem; 
+
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+
+header a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+
+    color: rgba(196, 196, 204, 1);
+}
+
+header a:hover {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Home page */
+
+.saiba-mais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saiba-mais h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+.saiba-mais button {
+    width: fit-content;
+    padding: 12px 32px;
+    gap: 8px;
+
+    background: none;
+    border-style: none;
+
+    border-radius: 5px;
+    border: 2px solid #FFF;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.saiba-mais button:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+
+.page{
+    display: grid;
+    place-items: center;
+
+   
+    padding: 22.2rem;
+}
+/* -------- */
+
+
+/* Exploration, Universe page config */
+
+.exploration,
+.universe {
+    padding: 22rem;
+}
+
+
+.exploration h1,
+.universe h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+.exploration p,
+.universe p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+
+    color: rgba(225, 225, 230, 1);
+    margin-right: 530px;
+}
+
+/* nav on select */
+.select {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+    
+
