@@ -20,7 +20,7 @@ Este projeto foi desenvolvido usando uma aplicação chamada Single Page Aplicat
 
 ## 🔖 Deploy
 
-Link:
+Link: https://spa-universe-eosin.vercel.app/
 
 ---
 
